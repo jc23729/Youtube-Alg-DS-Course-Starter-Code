@@ -4,8 +4,11 @@
 // Create a Node class
 class Node {
 	constructor(data, next) {
+		// this.data is equal to whatever data is passed in as an argument. Can name it whatever you want. This.value
 		this.data = data;
+		// this.next is our pointer to the next node. Can this.nextNode
 		this.next = next;
+	}
 }
 
 class LinkedList {
