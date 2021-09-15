@@ -16,6 +16,12 @@ class LinkedList {
 		this.head = null;
 		this.length = 0;
 	}
+
+	unshift(data) {
+		const newHead = newNode(data, this.head)
+		this.length++;
+		this.head = hewHead;
+	}
 }
 
 // _________ _______  _______ _________   _______  _______  _______  _______  _______
