@@ -3,7 +3,7 @@
 class Node {}
 
 class LinkedList {
-	constructor(head) {
+	constructor() {
 		this.head = null;
 		this.length = 0;
 	}
